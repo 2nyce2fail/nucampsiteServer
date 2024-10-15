@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { defaultConfiguration } = require('../app');
 const Schema = mongoose.Schema;
 
 require('mongoose-currency').loadType(mongoose);
